@@ -1,13 +1,13 @@
 {
   "title": "James J Shaw Portfolio",
-  "url": "https://jamesjshaw.com/",
+  "url": "https://legendary-hamster-1a4ffb.netlify.app/",
   "language": "en",
   "description": "This is my first draft developer portfolio",
   "feed": {
     "subtitle": "I hope to showcase my work to prospective employers",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://jamesjshaw.com/"
+    "id": "https://legendary-hamster-1a4ffb.netlify.app/"
   },
   "jsonfeed": {
     "path": "/feed/feed.json",
@@ -16,6 +16,6 @@
   "author": {
     "name": "James J Shaw",
     "email": "jamesjshaw90@gmail.com",
-    "url": "https://example.com/about-me/"
+    "url": "https://legendary-hamster-1a4ffb.netlify.app/about/"
   }
 }
