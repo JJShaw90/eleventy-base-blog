@@ -16,7 +16,7 @@ eleventyNavigation:
   </p>
   <p>
     <label>Do you agree to the <a href="">terms and conditions:</a>
-     <input type="radio" id="yes_t&c" name="ts_cs" value="yes_t&c">
+     <input type="radio" id="yes_t&c" name="ts_cs" value="yes_t&c" checked>
   <label for="yes_t&c">Yes</label>
   <input type="radio" id="no_t&c" name="ts_cs" value="no_t&c">
   <label for="no_t&c">No</label>
