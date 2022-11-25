@@ -4,7 +4,7 @@ title: Sign-Up Form
 templateClass: tmpl-post
 eleventyNavigation:
   key: Contact Me
-  order: 
+  order: 4
 ---
 <p>Please fill out the form below if you want to collaborate on any fun projects:</p>
 <form name="contact" method="POST" data-netlify="true">
@@ -15,10 +15,11 @@ eleventyNavigation:
     <label>Your Email: <input type="email" name="email" /></label>
   </p>
   <p>
-    <label>Do you agree to the <a href="">terms and conditions</a><select name="role[]" multiple>
-      <option value="yes">Yes</option>
-      <option value="no">No</option>
-    </select></label>
+    <label>Do you agree to the <a href="">terms and conditions:</a>
+     <input type="radio" id="yes_t&c" name="ts_cs" value="yes_t&c">
+  <label for="yes_t&c">Yes</label><br>
+  <input type="radio" id="no_t&c" name="ts_cs" value="no_t&c">
+  <label for="no_t&c">No</label><br>
   </p>
   <p>
     <label>Message: <textarea name="message"></textarea></label>
