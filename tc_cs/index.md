@@ -4,7 +4,7 @@ title: Terms of Use
 templateClass: tmpl-post
 eleventyNavigation:
   key: Terms of Use
-  order:
+
 ---
 
 <style>
