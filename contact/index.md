@@ -15,7 +15,7 @@ eleventyNavigation:
     <label>Your Email: <input type="email" name="email" /></label>
   </p>
   <p>
-    <label>Do you agree to the <a href="">terms and conditions:</a>
+    <label>Do you agree to the <a href="/tcs_cs">terms of use:</a>
      <input type="radio" id="yes_t&c" name="ts_cs" value="yes_t&c" checked>
   <label for="yes_t&c">Yes</label>
   <input type="radio" id="no_t&c" name="ts_cs" value="no_t&c">
