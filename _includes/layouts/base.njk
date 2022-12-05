@@ -20,6 +20,7 @@
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
       crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/3af9f5ed90.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <header>
@@ -57,7 +58,28 @@
     <main {% if templateClass %} class="{{ templateClass }}" {% endif %}>
       {{ content | safe }}
     </main>
-    <footer></footer>
+    <footer class="bg-dark text-center text-white">
+      <div
+        class="container p-4 pb-0">
+        <!-- Section: Professional links -->
+        <section
+          class="mb-4">
+          <!-- Add Linkedin -->
+          <a class="btn btn-outline-light btn-floating m-1" href="" role="button">
+            <i class="fab fa-linkedin" style="background-color:white;"></i>
+          </a>
+          <!-- Github -->
+          <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/JJShaw90" role="button">
+            <i class="fab fa-github-square" style="background-color:white;"></i>
+          </a>
+        </section>
+        <!-- End Section: Professional links -->
+      </div>
+      <div class="text-center p-3">
+        © 2022 Copyright |
+        <a class="text-white" href="/">James J Shaw</a>
+      </div>
+    </footer>
     <!-- Current page: {{ page.url | url }} -->
   </body>
 </html>
