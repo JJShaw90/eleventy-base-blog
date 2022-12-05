@@ -58,24 +58,23 @@
     <main {% if templateClass %} class="{{ templateClass }}" {% endif %}>
       {{ content | safe }}
     </main>
-    <footer class="bg-dark text-center text-white">
-      <div
-        class="container p-4 pb-0">
-        <!-- Section: Professional links -->
-        <section
-          class="mb-4">
-          <!-- Add Linkedin -->
-          <a class="btn btn-outline-light btn-floating m-1" href="" role="button">
-            <i class="fab fa-linkedin" style="background-color:white;"></i>
-          </a>
+    <footer
+      class="bg-light text-center text-black">
+      <!-- Section: Professional links -->
+      <div>
+        <section>
           <!-- Github -->
-          <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/JJShaw90" role="button">
-            <i class="fab fa-github-square" style="background-color:white;"></i>
+          <a class="btn btn-outline-black btn-floating m-1" href="https://github.com/JJShaw90" role="button" target="_blank">
+            <i class="fab fa-github-square"></i>
+          </a>
+          <!-- Add Linkedin -->
+          <a class="btn btn-outline-black btn-floating m-1" href="" role="button" target="_blank">
+            <i class="fab fa-linkedin"></i>
           </a>
         </section>
-        <!-- End Section: Professional links -->
       </div>
-      <div class="text-center p-3">
+      <!-- End Section: Professional links -->
+      <div class="text-center">
         © 2022 Copyright |
         <a class="text-white" href="/">James J Shaw</a>
       </div>
