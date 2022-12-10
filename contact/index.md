@@ -4,7 +4,7 @@ title: Sign-Up Form
 templateClass: tmpl-post
 eleventyNavigation:
   key: Contact Me
-  order: 4
+  order: 5
 ---
 <p>Please fill out the form below if you want to collaborate on any fun projects:</p>
 <form name="contact" method="POST" data-netlify="true">
