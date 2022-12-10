@@ -78,9 +78,6 @@ main :first-child {
   margin-top: 0;
 }
 
-header {
-  border-bottom: 1px dashed var(--color-gray-20);
-}
 
 header:after {
   content: "";
